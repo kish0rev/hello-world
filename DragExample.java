@@ -33,12 +33,13 @@ public class DragExample {
 		WebElement To = driver.findElement(By.xpath("//*[@id=\"form:j_idt94:j_idt99\"]/span"));
 		
 		
-		Actions actions = new Actions(driver);
-		actions.clickAndHold(From).moveToElement(To).release(To).build().perform();
+		// Actions actions = new Actions(driver);
+		// actions.clickAndHold(From).moveToElement(To).release(To).build().perform();
 		
-		actions.dragAndDrop(From, To).build().perform();
+		// actions.dragAndDrop(From, To).build().perform();
 		
 	}	
 
 }
+
 
