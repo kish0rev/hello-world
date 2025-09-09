@@ -34,10 +34,11 @@ public class DragExample {
 		
 		
 		Actions actions = new Actions(driver);
-//		actions.clickAndHold(From).moveToElement(To).release(To).build().perform();
+		actions.clickAndHold(From).moveToElement(To).release(To).build().perform();
 		
 		actions.dragAndDrop(From, To).build().perform();
 		
 	}	
 
 }
+
