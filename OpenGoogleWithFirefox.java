@@ -14,10 +14,11 @@ public class OpenGoogleWithFirefox {
 		
 		driver.get("https://www.google.com/");
 		
-		driver.findElement(By.name("q")).sendKeys("agni"+Keys.ENTER);
+		driver.findElement(By.name("q"));
 	
 		
 //		driver.quit();
 	}
 
 }
+
