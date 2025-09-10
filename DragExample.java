@@ -17,7 +17,7 @@ public class DragExample {
 		WebDriver driver = new ChromeDriver();
 		
 		driver.get("https://leafground.com/drag.xhtml");
-		//System.out.println("done");
+		System.out.println("done");
 		
 		
 		
@@ -42,6 +42,7 @@ public class DragExample {
 	}	
 
 }
+
 
 
 
